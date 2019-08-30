@@ -110,10 +110,7 @@ undefinedが返される。
 モデルの読み込みには「loadNetwork」ブロックを利用数。
 保存した二つのファイルを同時に指定する必要がある。
 
-# Licence
-
-[MIT]
-
 # Author
 
 [spica8](https://github.com/spica8)
+
