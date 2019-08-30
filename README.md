@@ -63,15 +63,15 @@ Scratch3.0が起動したら、左下のアイコン「+」をクリックして
 	- batchSize    : バッチサイズ (0.0から1.0 割合で指定)
 	- epochs       : エポック数 (学習の回数：全てのバッチの学習を1周終えると1エポック)
 * 各パラメータの初期値  
-|パラメータ | 初期値|
-|:----------|------:|
-|version    |      1|
-|alpha      |   0.25|
-|hiddenUnits |   100|
+|パラメータ  | 初期値|
+|:-----------|------:|
+|version     |      1|
+|alpha       |   0.25|
+|hiddenUnits |    100|
 |learningRate| 0.0001|
-| epocs     |     20|
-| numLabels |      2|
-| batchSize |    0.4|
+| epocs      |     20|
+| numLabels  |      2|
+| batchSize  |    0.4|
 
 ### 初期化
 上記パラメータを設定して
