@@ -100,7 +100,7 @@ Scratch3.0が起動したら、左下のアイコン「+」をクリックして
 また、学習中に分類実行「classify」のブロックを利用すると、
 undefinedが返される。
 
-<img src="./images/008.png" width="180px">
+<img src="./images/008.png" width="240px">
 
 ## 分類
 ネットワークの学習、もしくは、学習済みデータの読み込みが完了した後、
@@ -111,7 +111,7 @@ undefinedが返される。
 3. 分類が終了すると「classifiedResult」にクラス名、「classifiedConfidence」に確度が格納される。
 4. 分類完了前に、classifedResultやcolassifiedConfidenceを利用すると undefined が返される。
 
-<img src="./images/009.png" width="180px">
+<img src="./images/009.png" width="240px">
 
 ## モデルの保存と読み込み
 学習済みのモデルはローカルに保存することできる。また保存したモデルを読み込むことで、学習せずに
