@@ -4,7 +4,7 @@ Blocks for Machine Learning (Original blocks of Scratch3.0)
 ------
 # 問題点
 * MobileNetwork v2 のモデル読み込みができない。
-* MobileNetwork v1 で、alpha=0.25の学習は可能だが、それ以外 (alpha= 0.50, 0.75, 1.0)での計算でエラー発生
+* MobileNetwork v1 では alpha=0.25の学習は可能だが、それ以外 (alpha= 0.50, 0.75, 1.0)の計算でエラー発生
 * 分類の正解率が低い。用意する画像の質・量、ハイパーパラメータの調整の検討が必要。
 
 # 概要
