@@ -10,10 +10,11 @@ Scratch3.0 の拡張機能を利用して、機械学習用のブロックを作
 構成として
  - SBML-TL  (Transfer Learning)   (β版公開)  
       転移学習を行う。特徴量抽出はMobileNet、分類器にはニューラルネットワークを用いる。
- - SBML-kNN (k-nearest neighbors) (作成中)
+ - SBML-kNN (k-nearest neighbors) (作成中)  
       特徴量抽出にはMobileNetを利用し、k近傍法を用いて分類を行う。
- - SBML-IC  (Image Classifier)    (作成中)
+ - SBML-IC  (Image Classifier)    (作成中)  
       ImageNetの画像を用いてあらかじめ学習したネットワークを用いた分類を行う。
+
 の３種のブロックからなる。
 
 # SBML-TL
