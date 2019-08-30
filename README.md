@@ -8,26 +8,26 @@ Scratch3.0 の拡張機能を利用して、機械学習用のブロックを作
 内部的には ml5.js を利用している。
 
 構成として
- - SBML-TL  (Transfer Learning)   (β版公開)  
+ - BML-TL  (Transfer Learning)   (β版公開)  
       転移学習を行う。特徴量抽出はMobileNet、分類器にはニューラルネットワークを用いる。
- - SBML-kNN (k-nearest neighbors) (作成中)  
+ - BML-kNN (k-nearest neighbors) (作成中)  
       特徴量抽出にはMobileNetを利用し、k近傍法を用いて分類を行う。
- - SBML-IC  (Image Classifier)    (作成中)  
+ - BML-IC  (Image Classifier)    (作成中)  
       ImageNetの画像を用いてあらかじめ学習したネットワークを用いた分類を行う。
 
 の３種のブロックからなる。
 
-# SBML-TL
+# BML-TL (β版)
 以下にアクセスして実行（ブラウザはchromeのみ対応）
 
-[SBML](https://spica8.github.io/scratch-gui/)  
+[BML](https://spica8.github.io/scratch-gui/)  (https://spica8.github.io/scratch-gui/)  
 
-  左下のアイコン「+」をクリックして、「拡張機能」の一覧を表示させ、「SBML TL」を選択する。
+Scratchが起動したら、左下のアイコン「+」をクリックして「拡張機能」の一覧を表示させ、「BML TL」を選択する。
 
 ## データの準備
-- スプライトを分類クラスに対応させる
-- スプライトには、そのクラスに対応する画像をコスチュームとして登録する
-- スプライトを適宜追加後、スプライト名を変更（クラス名となる）
+- Scratchのスプライト１つが、分類クラスの1つにに対応している。
+- 各スプライトには、そのクラスに対応する画像をコスチュームとして登録する。
+- スプライトを必要な数だけ追加する。スプライト名をクラス名となるよう変更する。
 - videoをon（適宜左右反転flipを指定する）
 - photo「スプライト名」のブロックで撮影→指定スプライトに画像登録ができる。
 
