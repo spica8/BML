@@ -115,7 +115,7 @@ undefinedが返される。
 3. 分類が終了すると「classifiedResult」にクラス名、「classifiedConfidence」に確度が格納される。
 4. 分類完了前に、classifedResultやcolassifiedConfidenceを利用すると undefined が返される。
 
-<img src="./images/009.png" width="240px">
+<img src="./images/009.png" width="360px">
 
 ## モデルの保存と読み込み
 学習済みのモデルはローカルに保存することできる。また保存したモデルを読み込むことで、学習せずに
