@@ -4,25 +4,28 @@ Blocks for Machine Learning (Original blocks of Scratch3.0)
 ------
 
 # 概要
-Scratch3.0 の拡張機能を利用して、機械学習用のブロックを作成した。
-内部的には ml5.js を利用している。
+Scratch3.0 の拡張機能と ml5.js [ml5js]('https://ml5js.org/') を利用して、機
+械学習用のブロックを作成した。
 
-構成として
+構成
  - BML-TL  (Transfer Learning)   (β版公開)  
-      転移学習を行う。特徴量抽出はMobileNet、分類器にはニューラルネットワークを用いる。
+      転移学習を行う。特徴量抽出はMobileNet、分類器にはニューラルネットワークを用いる。  
+      ml5.jsのfeatureExtractor()を利用したブロック。 
  - BML-kNN (k-nearest neighbors) (作成中)  
       特徴量抽出にはMobileNetを利用し、k近傍法を用いて分類を行う。
+      ml5.jsのfeatureExtractor()とKNNClassifier()を利用したブロック。
  - BML-IC  (Image Classifier)    (作成中)  
       ImageNetの画像を用いてあらかじめ学習したネットワークを用いた分類を行う。
+      ml5.jsのimageClassifier()を利用したブロック。
 
-の３種のブロックからなる。
+の３種のブロックからなる。（現在公開中は BML-TL のみ）
 
 # BML-TL (β版)
-以下にアクセスして実行（ブラウザはchromeのみ対応）
+以下にアクセスしてScratch3.0を実行する。（対応ブラウザはchromeのみ）
 
 [BML](https://spica8.github.io/scratch-gui/)  (https://spica8.github.io/scratch-gui/)  
 
-Scratchが起動したら、左下のアイコン「+」をクリックして「拡張機能」の一覧を表示させ、「BML TL」を選択する。
+Scratch3.0が起動したら、左下のアイコン「+」をクリックして「拡張機能」の一覧を表示させ「BML TL」を選択する。
 
 ## データの準備
 - Scratchのスプライト１つが、分類クラスの1つにに対応している。
