@@ -44,12 +44,12 @@ Scratch3.0が起動したら、左下のアイコン「+」をクリックして
 2. スプライト名をクラス名となるよう変更する。
 <img src="./images/003.png" width="180px">
 3. Videoをonにする。（適宜左右反転flipを指定する）
-<img src="./images/006.png" width="180px">
+<img src="./images/006.png" width="360px">
 4. 「photo \[スプライト名\]」のブロックでスプライトを指定し、そのクラスに対応する画像を撮影する。→指定したスプライトに画像が追加される。撮影すると画像がコスチュームとして画面に表示される。スプライトの「表示する」を用いて（表示/非表示）をコントロールする。
 <div align="left">
-<img src="./images/004.png" width="180px">
-<img src="./images/005.png" width="180px">
-<img src="./images/007.png" width="180px">
+<img src="./images/004.png" width="240px">
+<img src="./images/005.png" width="240px">
+<img src="./images/007.png" width="240px">
 </div>
 5. スプライトを確認し、不要な画像は削除する。
 
