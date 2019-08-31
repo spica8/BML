@@ -24,7 +24,7 @@ Scratch3.0 の拡張機能と ml5.js [ml5js]('https://ml5js.org/') を利用し�
 の３種のブロックからなる。（現在公開中は BML-TL のみ）
 
 # BML-TL (β版)
-以下にアクセスしてScratch3.0を実行する。（対応ブラウザはchromeのみ）
+以下にアクセスしてScratch3.0を実行する。（対応ブラウザはGoogle Chromeのみ）
 
 [BML](https://spica8.github.io/scratch-gui/)  (https://spica8.github.io/scratch-gui/)  
 
