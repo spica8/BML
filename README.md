@@ -14,14 +14,14 @@ Scratch3.0 の拡張機能と ml5.js [ml5js]('https://ml5js.org/') を利用し�
  - BML-TL  (Transfer Learning)   (β版公開)  
       転移学習を行う。特徴量抽出はMobileNet、分類器にはニューラルネットワークを用いる。  
       ml5.jsのfeatureExtractor()を利用したブロック。 
- - BML-kNN (k-nearest neighbors) (作成中)  
+ - BML-KNN (K-Nearest Neighbor) (β版公開)  
       特徴量抽出にはMobileNetを利用し、k近傍法を用いて分類を行う。  
       ml5.jsのfeatureExtractor()とKNNClassifier()を利用したブロック。
- - BML-IC  (Image Classifier)    (作成中)  
+ - BML-IC  (Image Classifier)    (β版公開)  
       ImageNetの画像を用いてあらかじめ学習したネットワークを用いた分類を行う。  
       ml5.jsのimageClassifier()を利用したブロック。
 
-の３種のブロックからなる。（現在公開中は BML-TL のみ）
+の３種のブロックからなる。
 
 # BML-TL (β版)
 以下にアクセスしてScratch3.0を実行する。（対応ブラウザはGoogle Chromeのみ）
