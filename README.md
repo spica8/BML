@@ -7,7 +7,7 @@ Blocks for Machine Learning (Original blocks of Scratch3.0)
 * MobileNetwork v1 では alpha=0.25の学習は可能だが、それ以外 (alpha= 0.50, 0.75, 1.0)の計算でエラー発生
 
 # 概要
-Scratch3.0 の拡張機能と ml5.js [ml5js]('https://ml5js.org/') を利用して、機械学習用のブロックを作成した。
+Scratch3.0 の拡張機能と ml5.js ('https://ml5js.org/') を利用して、機械学習用のブロックを作成した。
 
 構成
  - BML-TL  (Transfer Learning)   (β版公開)  
